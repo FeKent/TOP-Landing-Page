@@ -11,7 +11,7 @@ Arranging elements aesthetically with flexbox
 
 2. Describe skills demonstrated
 
-
+- Found and applied a font I was unfamiliar with using the open source google fonts
 
 
 

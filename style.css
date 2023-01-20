@@ -160,6 +160,7 @@ li{
 .con1{
     display: flex;
     margin: 70px;
+    justify-content: space-around;
 }
 
 .right-pic{

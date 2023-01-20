@@ -1,15 +1,12 @@
 /*{border: 2px solid red;}*/
 
-body,
-html{
+body{
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 /*colors */ 
 
@@ -25,6 +22,7 @@ button{
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
+    width: max-content;
 }
 
 .con3{
@@ -74,10 +72,118 @@ li{
 
 .con4{
     display: flex;
-    margin: 150px;
+    flex: 1;
+    margin: 70px;
     padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action{
+    font-weight: bold;
+}
+
+.what-act{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+/* header */
+
+.logo{
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    margin-top: 10px;
+    font-size: large;
+    justify-content: space-around;
+}
+
+.right-links{
+    font-size: 15px;
+}
+
+
+/* content 3*/
+
+.con3{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.quote{
+    align-items: center;
+    margin: 0px 70px;
+    font-size: 28px;
+    color:#1f2937;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.author{
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+
+/* content 2 */
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+}
+
+li{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    max-width: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.con2{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+/* content 1 */ 
+
+.con1{
+    display: flex;
+    margin: 70px;
+}
+
+.right-pic{
+    padding: 30px;
+    margin-left: 40px;
+    background-color: grey;
+    width: 650px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    border-radius: 10px;
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.awesome{
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.left-text div{
+    color: #e5e7eb;
 }

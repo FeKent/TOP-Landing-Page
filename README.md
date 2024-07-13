@@ -24,8 +24,8 @@ Once finished, the Con1 container had a large gap next to the "placeholder for i
  - Fixed by adding justify-content: space-around to the Con1 CSS
  - Working in a windowed screen, while making it easier to look at notes etc. can skew the layout of the finished webpage when looking at it in fullscreen
 
-Writing out the full HTML, with <div> and classes defined as I go, then moving onto CSS afterward easier 
- - In previous exercises I had to edit the HTML, adding <div>s and classes so that I could use CSS Flexbox 
+Writing out the full HTML, with `<div>` and classes defined as I go, then moving onto CSS afterward easier 
+ - In previous exercises I had to edit the HTML, adding `<div>`s and classes so that I could use CSS Flexbox 
  - Breaking up the body into sections also helped when building the HTML 
 
 # Links
